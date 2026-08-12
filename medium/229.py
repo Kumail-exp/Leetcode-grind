@@ -1,5 +1,5 @@
 class Solution:
-    def majorityElement(self, nums: List[int]) -> List[int]:
+    def majorityElement(self, nums: list[int]) -> list[int]:
         count={}
         for val in nums:
             count[val]=1+count.get(val,0)
